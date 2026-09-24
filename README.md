@@ -3,9 +3,9 @@ Internet of Things Laboratory Experiment 2
 ## Smart Home Output Subsystem
 A Smart Home Output Subsystem, which focuses in its alert system using LEDS, Buzzer, and Lamps with 4 different states (IDLE,ACTIVE,WARNING,ALARM).
 ## Implementation Part B
-An array of comprising of 8 LEDs for light indicator.
+An array of comprising of 8 LEDs to create a light indicator row.
 ### Connections
-LED[8] = { 13, 12, 14, 27, 26, 25, 33, 32 }
+LED[8] = { 13, 12, 14, 27, 26, 25, 33, 32 }.
 
 ## Implementation Part C
 Different 3 LED patterns are created to indicate each state.
