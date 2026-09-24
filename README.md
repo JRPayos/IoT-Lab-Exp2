@@ -1,5 +1,6 @@
 # IoT-Lab-Exp2
 Internet of Things Laboratory Experiment 2
+## Smart Home Output Subsystem ---
 ## Implementation Part B
 Done in simulated Arduino Uno R3 via TinkerCad.
 ### Connections
