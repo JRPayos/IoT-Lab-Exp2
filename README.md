@@ -19,4 +19,4 @@ Different 3 LED patterns are created to indicate each state.
 ## Implementation Part F
 Combining all functions and actuators to present each individual alert state
 
-**KiCad was used for Schematic Diagram** inside the [IoT_Lab2](https://github.com/JRPayos/IoT-Lab-Exp1/tree/main/IoT_Lab2) folder
+**KiCad was used for Schematic Diagram** inside the [IoT_Lab2](https://github.com/JRPayos/IoT-Lab-Exp2/tree/main/IoT_Lab2) folder
