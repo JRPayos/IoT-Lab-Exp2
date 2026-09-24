@@ -14,7 +14,7 @@ Different 3 LED patterns are created to indicate each state.
 1st 12V Lamp included in the system, controlled by MOSFET, served as a dimmable lamp that depends on the alert state.
 
 ## Implementation Part E
-2nd 12V Lamp included in the system, connected via Relay module which served as a switched lamp that depends on the alarm state.
+2nd 12V Lamp included in the system, connected via Relay module which served as a switched lamp that depends on the alarm state. The different 4 alert tones (A_NONE,A_CONFIRM,A_WARN,A_ALARM) are also included to represent each alert state
 
 ## Implementation Part F
 Combining all functions and actuators to present each individual alert state
