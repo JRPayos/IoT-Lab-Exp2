@@ -1,23 +1,22 @@
 # IoT-Lab-Exp2
 Internet of Things Laboratory Experiment 2
-## Smart Home Output Subsystem ---
+## Smart Home Output Subsystem
+A Smart Home Output Subsystem, which focuses in its alert system using LEDS, Buzzer, and Lamps with 4 different states (IDLE,ACTIVE,WARNING,ALARM).
 ## Implementation Part B
-Done in simulated Arduino Uno R3 via TinkerCad.
+An array of comprising of 8 LEDs for light indicator.
 ### Connections
-LDR pin = A0, 
-LED pin = D9,
-Power sources = 5v & GND
+LED[8] = { 13, 12, 14, 27, 26, 25, 33, 32 }
+
 ## Implementation Part C
-Done in actual ESP32 Dev Module Board.
+Different 3 LED patterns are created to indicate each state.
 
 ## Implementation Part D
-## Implementation Part E
-## Implementation Part F
+1st 12V Lamp included in the system, controlled by MOSFET, served as a dimmable lamp that depends on the alert state.
 
-### Connections
-LDR pin = GPI0 34,
-LED pin = GPIO 4,
-Power Source = 3v3 and GND
-### Debugging
-the default THRESHOLD value is = 1600, but on the actual implementation and testing in laboratory environment, it only reads around 100-240 raw value. Hence, the THRESHOLD value is changed to 100, as below 100 raw value would mean dimmed/dark environment, that would turn on the LED. <br><br>
-**KiCad was used for Schematic Diagram** inside the [IoT_Lab1](https://github.com/JRPayos/IoT-Lab-Exp1/tree/main/IoT_Lab1) folder
+## Implementation Part E
+2nd 12V Lamp included in the system, connected via Relay module which served as a switched lamp that depends on the alarm state.
+
+## Implementation Part F
+Combining all functions and actuators to present each individual alert state
+
+**KiCad was used for Schematic Diagram** inside the [IoT_Lab1](https://github.com/JRPayos/IoT-Lab-Exp1/tree/main/IoT_Lab2) folder
